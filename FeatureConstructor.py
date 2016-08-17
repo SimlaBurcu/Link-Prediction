@@ -10,7 +10,6 @@ class FeatureConstructor:
         self.node1 = node1
         self.node2 = node2
         self.average_neighbor_degree_dict = None
-
         self.attributes_map = {
             "adamic_adar_similarity": self.adamic_adar_similarity,
             "average_neighbor_degree_sum": self.average_neighbor_degree_sum,
